@@ -1,0 +1,59 @@
+$primary-color: #000;
+
+
+.App {
+    font-size: 3em;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+
+    h1 {
+        margin-bottom: 0;
+    }
+
+    .ContactInfo {
+        width: 100%;
+        text-align: center;
+        line-height: 1em;
+        font-size: 0.4em;
+    }
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    td {
+        border: 1px solid black;
+        width: 33%;
+        img {
+            height: auto;
+            width: 100%;
+            display: block
+        }
+    }
+}
+
+.Container {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 75%;
+}
+
+.footer {
+    background-color: #808080;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    .inner-footer {
+        display: inline-block;
+        text-align: left;
+        line-height: .7em;
+        font-size: 0.5em;
+    }
+}
